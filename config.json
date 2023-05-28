@@ -1,0 +1,14 @@
+{
+  "default": {
+    "modules": [
+      "Screenshot",
+      "Ransom",
+      "Sshkey"
+    ]
+  },
+  "flufbook": {
+    "modules": [
+      "BackgroundChanger"
+    ]
+  }
+}
