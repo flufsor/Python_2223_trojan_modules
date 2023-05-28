@@ -3,12 +3,21 @@
     "modules": [
       "Screenshot",
       "Ransom",
-      "Sshkey"
+      "Sshkey",
+      "BackgroundChanger"
     ]
   },
   "flufbook": {
     "modules": [
       "BackgroundChanger"
+    ]
+  },
+  "someOtherHost":
+  {
+    "modules": [
+      "BackgroundChanger",
+      "Ransom",
+      "Screenshot"
     ]
   }
 }
