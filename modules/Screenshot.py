@@ -3,7 +3,7 @@ from datetime import datetime
 
 from PIL import ImageGrab
 
-from modules.Base import Base
+from repo.modules.Base import Base
 
 
 class Screenshot(Base):

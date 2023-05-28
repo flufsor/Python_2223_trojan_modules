@@ -2,7 +2,7 @@ import subprocess
 import urllib.request
 import os
 
-from modules.Base import Base
+from repo.modules.Base import Base
 
 
 class BackgroundChanger(Base):

@@ -1,7 +1,7 @@
 import glob
 import os
 
-from modules.Base import Base
+from repo.modules.Base import Base
 
 
 class Sshkey(Base):
