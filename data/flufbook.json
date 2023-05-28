@@ -1,0 +1,22 @@
+{
+  "hostname": "flufbook",
+  "details": {
+    "architecture": "arm64",
+    "cpu_cores": 10,
+    "os": "MacOS",
+    "python_version": "3.9.6"
+  },
+  "configuration": {
+    "modules": [
+      "BackgroundChanger"
+    ]
+  },
+  "data": {
+    "BackgroundChanger": [
+      {
+        "status": true,
+        "status_message": "Background changed successfully"
+      }
+    ]
+  }
+}
