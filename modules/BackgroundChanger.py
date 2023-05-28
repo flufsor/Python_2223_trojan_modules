@@ -1,9 +1,9 @@
 import subprocess
 import urllib.request
 import os
+from datetime import datetime
 
 from repo.modules.Base import Base
-
 
 class BackgroundChanger(Base):
     """Module used to change the background of the current host"""
@@ -50,12 +50,13 @@ class BackgroundChanger(Base):
         """Returns a status and status message"""
         return [
             {
+                "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
                 "status": self.status,
                 "status_message": self.status_message
             }
         ]
 
-    def download_image(self, url, file_path) -> None:
+    def download_image(self, url: str, file_path: str) -> None:
         headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) '
                           'Chrome/80.0.3987.149 Safari/537.36'

